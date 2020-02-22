@@ -40,7 +40,13 @@
 
 第二步、LPBinaryOSTU1.py部分会加载训练好的模型，在图像初步处理完之后，会使用分类器对这些初步定位的矩形框进行预测
 
-## 三、总结
+
+## 三、项目依赖管理
+本人推荐使用anaconda + requirements.txt
+
+requirements.txt使用参考博客：https://blog.csdn.net/pentiumCM/article/details/104288735
+
+## 四、总结
 目前朴素贝叶斯的模型效果比较好，采用的是留出法评估模型，准确率为：0.9174434087882823
 
 支持向量机效果不太理想，还在优化调整中。。。
