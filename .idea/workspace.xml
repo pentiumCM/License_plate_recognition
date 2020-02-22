@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebd6df6-4f6f-48db-9c3f-0308770fc6d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +40,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="356">
-                <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+              <first_editor relative-caret-position="104">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -332,7 +332,7 @@
       <workItem from="1582118881513" duration="8216000" />
       <workItem from="1582163775850" duration="8755000" />
       <workItem from="1582250071219" duration="1504000" />
-      <workItem from="1582334955518" duration="13513000" />
+      <workItem from="1582334955518" duration="13764000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1581842968319</created>
@@ -383,11 +383,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582377978128</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完善readme">
+      <created>1582378219186</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582378219186</updated>
+    </task>
+    <task id="LOCAL-00009" summary="完善readme">
+      <created>1582378305114</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582378305114</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90882000" />
+    <option name="totallyTimeSpent" value="91133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,7 +414,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49914822" visible="true" weight="0.22390318" />
@@ -439,7 +452,8 @@
     <MESSAGE value="整理项目目录，补充训练模型，数据集等文件" />
     <MESSAGE value="补充readme文件" />
     <MESSAGE value="完善requirements.txt文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善requirements.txt文件" />
+    <MESSAGE value="完善readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善readme" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/License_plate_recognition$license_plate_nb_clf.coverage" NAME="license_plate_nb_clf Coverage Results" MODIFIED="1582123896889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
@@ -699,8 +713,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="356">
-            <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <first_editor relative-caret-position="104">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
