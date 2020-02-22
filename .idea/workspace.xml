@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ebd6df6-4f6f-48db-9c3f-0308770fc6d7" name="Default Changelist" comment="" />
+    <list default="true" id="4ebd6df6-4f6f-48db-9c3f-0308770fc6d7" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license_plate_recognition/keras/VGG_CNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20License Plate Localization using a Naïve Bayes Classifier.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/paper/20License Plate Localization using a Naïve Bayes Classifier.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" beforeDir="false" afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,19 +19,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1134">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#51#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py">
+        <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="425">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
-                <element signature="e#51#61#0" expanded="true" />
+                <element signature="e#190#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding>
+                <element signature="e#187#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,13 +65,53 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stretchedImg</find>
+      <find>\</find>
+      <find>&gt;&gt;&gt;</find>
+      <find>skiprows</find>
+      <find>MultinomialNB</find>
+      <find>print</find>
+      <find>clf.pkl</find>
+      <find>write_data</find>
+      <find>116.2485199,441.5735474,162.5261383,64.91712952,-4.197668552,10550.73037,0</find>
+      <find>193.709137,267.8757019,94.4958725,30.31991768,-4.15964222,2865.107075,1</find>
+      <find>168.5,260,131,58,0,7598,1</find>
+      <find>226</find>
+      <find>192</find>
+      <find>1.3458</find>
+      <find>1.34</find>
+      <find>1.181</find>
+      <find>class_weight</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+      <replace>clf2.pkl</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/License_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" />
+        <option value="$PROJECT_DIR$/docs/dateset.txt" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/sample.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/naive_bayes.py" />
+        <option value="$PROJECT_DIR$/docs/dataset.csv" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/save_model.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/pickle_test.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/joblib_test.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/license_plate_classifier.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/keras/VGG_CNN.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/license_plate_nb_clf.py" />
+        <option value="$PROJECT_DIR$/docs/dataset/write_data_6.csv" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py" />
       </list>
     </option>
   </component>
@@ -58,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -65,11 +135,44 @@
               <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="scaler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="license_plate_recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="license_plate_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="license_plate_localization" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -78,7 +181,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\experiment\image_identification\License_plate_recognition\docs\paper" />
+      <recent name="F:\experiment\image_identification\License_plate_recognition\docs\dataset" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,8 +201,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="LPBinaryOSTU1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.svm_clf">
+    <configuration name="LPBinaryOSTU1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="License_plate_recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,12 +210,100 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/License_plate_recognition/license_plate_localization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/License_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="license_plate_nb_clf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="License_plate_recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\experiment\image_identification\License_plate_recognition\license_plate_recognition\license_plate_localization\nb_clf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nb_clf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="License_plate_recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="svm_clf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="License_plate_recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="License_plate_recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LPBinaryOSTU1" />
+        <item itemvalue="Python.svm_clf" />
+        <item itemvalue="Python.nb_clf" />
+        <item itemvalue="Python.LPBinaryOSTU1 (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.license_plate_nb_clf" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +332,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581840100596</updated>
-      <workItem from="1581840104299" duration="2559000" />
+      <workItem from="1581840104299" duration="8095000" />
+      <workItem from="1581901153266" duration="2644000" />
+      <workItem from="1581904850911" duration="34902000" />
+      <workItem from="1581989045139" duration="13253000" />
+      <workItem from="1582118881513" duration="8216000" />
+      <workItem from="1582163775850" duration="8755000" />
+      <workItem from="1582250071219" duration="1504000" />
+      <workItem from="1582334955518" duration="10569000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1581842968319</created>
@@ -140,39 +348,56 @@
       <option name="project" value="LOCAL" />
       <updated>1581842968320</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1581843122264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581843122264</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2559000" />
+    <option name="totallyTimeSpent" value="87938000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49914822" visible="true" weight="0.21709532" />
-      <window_info id="Structure" order="2" sideWeight="0.5008518" weight="0.19515885" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32935154" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32879046" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49914822" visible="true" weight="0.25869894" />
+      <window_info id="Structure" order="2" sideWeight="0.5008518" weight="0.18532526" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3492334" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5665529" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.5546075" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.5102389" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.5238908" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32935154" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.5631399" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.30786687" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,18 +411,250 @@
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/License_plate_recognition$license_plate_nb_clf.coverage" NAME="license_plate_nb_clf Coverage Results" MODIFIED="1582123896889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$test.coverage" NAME="test Coverage Results" MODIFIED="1582343109882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$sample.coverage" NAME="sample Coverage Results" MODIFIED="1581923822198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1581923935018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$LPBinaryOSTU1__1_.coverage" NAME="LPBinaryOSTU1 (1) Coverage Results" MODIFIED="1582352997755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$svm_clf.coverage" NAME="svm_clf Coverage Results" MODIFIED="1582356513985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$LPBinaryOSTU1.coverage" NAME="LPBinaryOSTU1 Coverage Results" MODIFIED="1581840822137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/License_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$license_plate_classifier.coverage" NAME="license_plate_classifier Coverage Results" MODIFIED="1582003318339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$nb_clf.coverage" NAME="nb_clf Coverage Results" MODIFIED="1582356492455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$VGG_CNN.coverage" NAME="VGG_CNN Coverage Results" MODIFIED="1582120033104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/keras" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docs/dateset.txt" />
+    <entry file="file://$PROJECT_DIR$/docs/dateset.csv" />
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4201" />
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/datasets/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="206" column="4" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/sample.py" />
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="675" selection-start-line="675" selection-end-line="675" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="1760" selection-start-line="1760" selection-end-line="1760" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1067">
+          <caret line="187" column="18" lean-forward="true" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/numpy/core/_asarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="555" selection-start-line="555" selection-end-line="555" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset.csv" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/save_model.py" />
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/ensemble/_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="835" column="28" selection-start-line="835" selection-start-column="6" selection-end-line="835" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/joblib_test.py" />
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/pickle_test.py" />
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset/write_data.csv" />
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="836" column="28" lean-forward="true" selection-start-line="836" selection-start-column="28" selection-end-line="836" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/keras/engine/sequential.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="168" column="65" lean-forward="true" selection-start-line="168" selection-start-column="65" selection-end-line="168" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/develop_tools/PyCharm/PyCharm-config/.PyCharm2019.1/system/python_stubs/755637836/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89460">
+          <caret line="4984" column="50" selection-start-line="4984" selection-start-column="50" selection-end-line="4984" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/keras/VGG_CNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset/write_data_6.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="2014" column="37" lean-forward="true" selection-start-line="2014" selection-start-column="37" selection-end-line="2014" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/svm/_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="636" column="19" lean-forward="true" selection-start-line="636" selection-start-column="19" selection-end-line="636" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/svm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#394#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/linear_model/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3996">
+          <caret line="244" column="7" selection-start-line="244" selection-start-column="7" selection-end-line="244" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/numpy/core/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="182" column="71" lean-forward="true" selection-start-line="182" selection-start-column="71" selection-end-line="182" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/preprocessing/_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="634" column="8" selection-start-line="634" selection-start-column="8" selection-end-line="634" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="541" column="58" selection-start-line="541" selection-start-column="58" selection-end-line="541" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset/write_data_7.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7344">
+          <caret line="408" column="30" selection-start-line="408" selection-start-column="30" selection-end-line="408" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#179#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/joblib/numpy_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="586" column="7" lean-forward="true" selection-start-line="586" selection-start-column="7" selection-end-line="586" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="-1134">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#51#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset/dataset_6.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset/dataset_5.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2359" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="e#187#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#190#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
