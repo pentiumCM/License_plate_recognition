@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ebd6df6-4f6f-48db-9c3f-0308770fc6d7" name="Default Changelist" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/license_plate_recognition/keras/VGG_CNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py" afterDir="false" />
+    <list default="true" id="4ebd6df6-4f6f-48db-9c3f-0308770fc6d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Img/read.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/20License Plate Localization using a Naïve Bayes Classifier.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/paper/20License Plate Localization using a Naïve Bayes Classifier.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" beforeDir="false" afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1134">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="108">
+              <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
               <folding>
                 <element signature="e#51#61#0" expanded="true" />
               </folding>
@@ -32,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="245">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#190#208#0" expanded="true" />
               </folding>
@@ -44,10 +38,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
+            <state relative-caret-position="-1078">
               <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <element signature="e#187#205#0" expanded="true" />
@@ -112,6 +118,7 @@
         <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py" />
         <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" />
         <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -135,40 +142,6 @@
               <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="scaler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="license_plate_recognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="license_plate_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="license_plate_localization" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -178,12 +151,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\experiment\image_identification\License_plate_recognition\Img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\experiment\image_identification\License_plate_recognition\docs\paper" />
       <recent name="F:\experiment\image_identification\License_plate_recognition\docs\dataset" />
@@ -201,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.svm_clf">
+  <component name="RunManager" selected="Python.LPBinaryOSTU1 (1)">
     <configuration name="LPBinaryOSTU1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="License_plate_recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,9 +290,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LPBinaryOSTU1 (1)" />
         <item itemvalue="Python.svm_clf" />
         <item itemvalue="Python.nb_clf" />
-        <item itemvalue="Python.LPBinaryOSTU1 (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.license_plate_nb_clf" />
       </list>
@@ -339,7 +315,7 @@
       <workItem from="1582118881513" duration="8216000" />
       <workItem from="1582163775850" duration="8755000" />
       <workItem from="1582250071219" duration="1504000" />
-      <workItem from="1582334955518" duration="10569000" />
+      <workItem from="1582334955518" duration="11247000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1581842968319</created>
@@ -355,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581843122264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="整理项目目录，补充训练模型，数据集等文件">
+      <created>1582375191798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582375191799</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87938000" />
+    <option name="totallyTimeSpent" value="88616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,10 +355,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49914822" visible="true" weight="0.25869894" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49914822" visible="true" weight="0.25567323" />
       <window_info id="Structure" order="2" sideWeight="0.5008518" weight="0.18532526" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5" />
@@ -408,14 +390,15 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="整理项目目录，补充训练模型，数据集等文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理项目目录，补充训练模型，数据集等文件" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/License_plate_recognition$license_plate_nb_clf.coverage" NAME="license_plate_nb_clf Coverage Results" MODIFIED="1582123896889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$test.coverage" NAME="test Coverage Results" MODIFIED="1582343109882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$sample.coverage" NAME="sample Coverage Results" MODIFIED="1581923822198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1581923935018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
-    <SUITE FILE_PATH="coverage/License_plate_recognition$LPBinaryOSTU1__1_.coverage" NAME="LPBinaryOSTU1 (1) Coverage Results" MODIFIED="1582352997755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$LPBinaryOSTU1__1_.coverage" NAME="LPBinaryOSTU1 (1) Coverage Results" MODIFIED="1582375518248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$svm_clf.coverage" NAME="svm_clf Coverage Results" MODIFIED="1582356513985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$LPBinaryOSTU1.coverage" NAME="LPBinaryOSTU1 Coverage Results" MODIFIED="1581840822137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/License_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$license_plate_classifier.coverage" NAME="license_plate_classifier Coverage Results" MODIFIED="1582003318339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
@@ -621,16 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#51#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/dataset/dataset_6.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -641,7 +614,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="-1078">
           <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
             <element signature="e#187#205#0" expanded="true" />
@@ -651,11 +624,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="245">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="e#190#208#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding>
+            <element signature="e#51#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/read.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
