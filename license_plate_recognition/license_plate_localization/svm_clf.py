@@ -9,6 +9,7 @@
 @desc	 : 车牌定位的SVM分类器
 '''
 
+import os
 import numpy as np
 import pandas as pd
 import joblib as jl
@@ -17,6 +18,7 @@ from functools import reduce
 from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
+import license_plate_localization.conf as conf
 
 
 def make_data_set(data_file, dimens, scaler_path):
@@ -40,16 +42,23 @@ def make_data_set(data_file, dimens, scaler_path):
     # 调整数据集数组的维数
     data = np.reshape(np.array(data), (-1, dimens))
     labels = np.reshape(np.array(labels), (1, -1))
-
-    # 数据标准化
-    scaler = preprocessing.StandardScaler().fit(data)  # 用训练集数据训练scaler
-    X_scaled = scaler.transform(data)  # 用其转换训练集是理所当然的
-
     labels = reduce(operator.add, labels)  # 将标签二维数组转化为一维数组
 
-    # 保存数据标准化的模型
-    jl.dump(scaler, scaler_path)
-    print("数据标准化模型保存成功")
+    # 数据标准化
+    # 如果数据标准化模型文件不存在，重新创建
+    if not os.path.exists(scaler_path):
+        # 数据标准化
+        scaler = preprocessing.StandardScaler().fit(data)  # 用训练集数据训练scaler
+        X_scaled = scaler.transform(data)  # 用其转换训练集是理所当然的
+        # 保存数据标准化的模型
+        jl.dump(scaler, scaler_path)
+        print("数据标准化模型保存成功")
+    else:
+        # 加载数据标准化的模型
+        scaler = jl.load(conf.scaler_path)
+        # 用标准化模型来标准化数据
+        X_scaled = scaler.transform(data)
+
     return X_scaled, labels
 
 
@@ -81,16 +90,16 @@ def svm_classifier(train_data, train_labels, model_file):
 
 if __name__ == '__main__':
     # 定义采用数据集的路径
-    data_path = '../../docs/dataset/dataset.csv'
+    data_path = conf.data_path
 
     # 定义训练集数据的维度
-    dimen = 9
+    dimen = conf.dimen
 
     # 定义数据标准化模型的路径
-    scaler_path = '../../docs/scaler/scaler.pkl'
+    scaler_path = conf.scaler_path
 
     # 定义生成模型的保存路径
-    model_path = '../../docs/model/svm_clf.pkl'
+    model_path = conf.svm_model_path
 
     # 构造数据集
     data, labels = make_data_set(data_path, dimen, scaler_path)

@@ -14,6 +14,7 @@ import pandas as pd
 from sklearn import preprocessing
 import joblib as jl
 import operator
+import os
 from functools import reduce
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
@@ -42,16 +43,22 @@ def make_data_set(data_file, dimens, scaler_path):
     # 调整数据集数组的维数
     data = np.reshape(np.array(data), (-1, dimens))
     labels = np.reshape(np.array(labels), (1, -1))
-
-    # 数据标准化
-    scaler = preprocessing.StandardScaler().fit(data)  # 用训练集数据训练scaler
-    X_scaled = scaler.transform(data)  # 用其转换训练集是理所当然的
-
     labels = reduce(operator.add, labels)  # 将标签二维数组转化为一维数组
 
-    # 保存数据标准化的模型
-    jl.dump(scaler, scaler_path)
-    print("数据标准化模型保存成功")
+    # 数据标准化
+    # 如果数据标准化模型文件不存在，重新创建
+    if not os.path.exists(scaler_path):
+        # 数据标准化
+        scaler = preprocessing.StandardScaler().fit(data)  # 用训练集数据训练scaler
+        X_scaled = scaler.transform(data)  # 用其转换训练集是理所当然的
+        # 保存数据标准化的模型
+        jl.dump(scaler, scaler_path)
+        print("数据标准化模型保存成功")
+    else:
+        # 加载数据标准化的模型
+        scaler = jl.load(conf.scaler_path)
+        # 用标准化模型来标准化数据
+        X_scaled = scaler.transform(data)
 
     return X_scaled, labels
 
