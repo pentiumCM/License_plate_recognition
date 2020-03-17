@@ -8,15 +8,16 @@ import numpy as np
 
 import math
 import joblib as jl
+import license_plate_localization.conf as conf
 import os
 
 # 定义常量
 minArea = 2000  # 车牌区域允许最大面积
 
 # 加载分类器model
-clf = jl.load('../../docs/model/svm_clf.pkl')
+clf = jl.load(conf.nn_model_path)
 # 加载数据标准化的模型
-scaler = jl.load('../../docs/scaler/scaler.pkl')
+scaler = jl.load(conf.scaler_path)
 
 '''获取图片的像素点，再重新计算像素点输出图片'''
 '''论文A Novel Least Squre and Image Rotation based Method for ...第5995页的描述实现'''

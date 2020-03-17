@@ -4,19 +4,19 @@
 @Author  : pentiumCM
 @Email   : 842679178@qq.com
 @Software: PyCharm
-@File    : nb_clf.py
-@Time    : 2020/2/17 10:44
-@desc	 : 车牌定位的朴素贝叶斯模型分类器
+@File    : neural_network_clf.py
+@Time    : 2020/3/17 21:58
+@desc	 : 神经网络分类器 - 多层感知器 MLP
 '''
 
 import numpy as np
 import pandas as pd
-from sklearn.naive_bayes import GaussianNB
-from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 import joblib as jl
 import operator
 from functools import reduce
+from sklearn.model_selection import train_test_split
+from sklearn.neural_network import MLPClassifier
 
 import license_plate_localization.conf as conf
 
@@ -56,9 +56,9 @@ def make_data_set(data_file, dimens, scaler_path):
     return X_scaled, labels
 
 
-def naive_bayes_classifier(train_data, train_labels, model_file):
+def nn_classifier(train_data, train_labels, model_file):
     """
-    采用朴素贝叶斯分类器，进行分类
+    采用神经网络分类器，进行分类
 
     :param train_data: 训练集数据
     :param train_labels: 训练集标签
@@ -66,28 +66,34 @@ def naive_bayes_classifier(train_data, train_labels, model_file):
     :return: 模型文件保存到本地
     """
 
-    clf = GaussianNB()
-    clf = clf.fit(train_data, train_labels)
+    clf = MLPClassifier(activation='relu', alpha=1e-05, batch_size='auto',
+                        beta_1=0.9, beta_2=0.999, early_stopping=False,
+                        epsilon=1e-08, hidden_layer_sizes=(5, 2),
+                        learning_rate='constant', learning_rate_init=0.001,
+                        max_iter=200, momentum=0.9, n_iter_no_change=10,
+                        nesterovs_momentum=True, power_t=0.5, random_state=1,
+                        shuffle=True, solver='lbfgs', tol=0.0001,
+                        validation_fraction=0.1, verbose=False, warm_start=False)
+    clf.fit(train_data, train_labels)
 
     # save model
     jl.dump(clf, model_file)
 
-    print("朴素贝叶斯模型保存成功")
+    print("神经网络模型保存成功")
 
 
 if __name__ == '__main__':
     # 定义采用数据集的路径
     data_path = conf.data_path
 
-    # 定义训练集数据的维度，及样本的特征数
+    # 定义训练集数据的维度，即样本的特征数
     dimen = conf.dimen
 
     # 定义数据标准化模型的路径
     scaler_path = conf.scaler_path
 
-
-    # 定义朴素贝叶斯模型的保存路径
-    model_path = conf.nb_model_path
+    # 定义神经模型的保存路径
+    model_path = conf.nn_model_path
 
     # 构造数据集，并且保存数据标准化模型，方便标准化新样本
     data, labels = make_data_set(data_path, dimen, scaler_path)
@@ -96,7 +102,7 @@ if __name__ == '__main__':
     data_train, data_test, labels_train, labels_test = train_test_split(data, labels, test_size=0.4, random_state=0)
 
     # 构建分类器
-    naive_bayes_classifier(data_train, labels_train, model_path)
+    nn_classifier(data_train, labels_train, model_path)
 
     # load model
     clf2 = jl.load(model_path)
