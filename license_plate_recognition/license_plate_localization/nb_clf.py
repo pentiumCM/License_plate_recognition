@@ -75,10 +75,10 @@ def naive_bayes_classifier(train_data, train_labels, model_file):
 
 if __name__ == '__main__':
     # 定义采用数据集的路径
-    data_path = '../../docs/dataset/write_data_7.csv'
+    data_path = '../../docs/dataset/dataset.csv'
 
-    # 定义训练集数据的维度
-    dimen = 6
+    # 定义训练集数据的维度，及样本的特征数
+    dimen = 9
 
     # 定义数据标准化模型的路径
     scaler_path = '../../docs/scaler/scaler.pkl'

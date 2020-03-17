@@ -6,13 +6,15 @@ time:2020-1-27
 import cv2
 import numpy as np
 
+import math
 import joblib as jl
+import os
 
 # 定义常量
 minArea = 2000  # 车牌区域允许最大面积
 
 # 加载分类器model
-clf = jl.load('../../docs/model/nb_clf_6.pkl')
+clf = jl.load('../../docs/model/svm_clf.pkl')
 # 加载数据标准化的模型
 scaler = jl.load('../../docs/scaler/scaler.pkl')
 
@@ -45,16 +47,59 @@ def stretch(img):
     return img
 
 
+def bilinear(src_img, dst_shape):
+    """
+    双线性插值法,来调整图片尺寸
+
+    :param org_img: 原始图片
+    :param dst_shape: 调整后的目标图片的尺寸
+    :return:    返回调整尺寸后的图片矩阵信息
+    """
+    dst_img = np.zeros((dst_shape[0], dst_shape[1], 3), np.uint8)
+    dst_h, dst_w = dst_shape
+    src_h = src_img.shape[0]
+    src_w = src_img.shape[1]
+    # i：纵坐标y，j：横坐标x
+    # 缩放因子，dw,dh
+    scale_w = src_w / dst_w
+    scale_h = src_h / dst_h
+
+    for i in range(dst_h):
+        for j in range(dst_w):
+            src_x = float((j + 0.5) * scale_w - 0.5)
+            src_y = float((i + 0.5) * scale_h - 0.5)
+
+            src_x_int = math.floor(src_x)
+            src_y_int = math.floor(src_y)
+
+            src_x_float = src_x - src_x_int
+            src_y_float = src_y - src_y_int
+
+            if src_x_int + 1 == src_w or src_y_int + 1 == src_h:
+                dst_img[i, j, :] = src_img[src_y_int, src_x_int, :]
+                continue
+            # print(src_x_int, src_y_int)
+            dst_img[i, j, :] = (1. - src_y_float) * (1. - src_x_float) * src_img[src_y_int, src_x_int, :] + \
+                               (1. - src_y_float) * src_x_float * src_img[src_y_int, src_x_int + 1, :] + \
+                               src_y_float * (1. - src_x_float) * src_img[src_y_int + 1, src_x_int, :] + \
+                               src_y_float * src_x_float * src_img[src_y_int + 1, src_x_int + 1, :]
+    return dst_img
+
+
 def lpr(filename):
-    # img = cv2.imread(filename)
     # 读取图片
-    # orgImg = cv2.imread('Img/illumination/5.jpg', cv2.IMREAD_COLOR)
-    # orgImg = cv2.imread('Img/background/22.jpg', cv2.IMREAD_COLOR)
     orgImg = cv2.imread(filename, cv2.IMREAD_COLOR)
     '''图像预处理'''
     # 压缩图片到指定大小
     image = cv2.resize(orgImg, (360, 580))
-    # print(image.shape[1])
+
+    # 缩放图片，替换 cv2.resize
+    # src_shape = (orgImg.shape[0], orgImg.shape[1])
+    # dst_shape = (math.ceil(src_shape[0] / 2), math.ceil(src_shape[1] / 2))
+
+    # 自定义的图像放缩函数
+    # image = bilinear(orgImg, dst_shape)
+
     # RGB转灰色
     grayImg = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -132,6 +177,25 @@ def lpr(filename):
             # print("cnt：",cnt)
             # print("cnt[1][0]：",cnt[1][0])
 
+            # 规整为矩形
+            a = []
+            b = []
+            for point in cnt:
+                b.append(point[0][0])
+                a.append(point[0][1])
+            r = [min(b), min(a), max(b), max(a)]
+            block = image[r[1]:r[3], r[0]:r[2]]
+
+            # RGB转换为HSV
+            hav = cv2.cvtColor(block, cv2.COLOR_BGR2HSV)
+
+            # 求均值
+            mean = cv2.mean(hav)
+
+            h = mean[0]
+            s = mean[1]
+            v = mean[2]
+
             # print('中国')
             # print("box：",box)
             box = np.int0(box)
@@ -140,7 +204,7 @@ def lpr(filename):
             area = areaWidth * areaHeight  # 求区域的面积
             x, y = rect[0]
             angle = rect[2]
-            sample = np.array([x, y, areaWidth, areaHeight, angle, area])
+            sample = np.array([x, y, areaWidth, areaHeight, angle, area, h, s, v])
             sample = np.reshape(sample, (1, -1))
 
             # 引用数据标准化模型
@@ -158,15 +222,15 @@ def lpr(filename):
                 cv2.drawContours(image, [box], 0, (0, 255, 255), 2)
 
     # 将轮廓规整为长方形
-    rectangles = []
-    for c in contours:
-        x = []
-        y = []
-        for point in c:
-            y.append(point[0][0])
-            x.append(point[0][1])
-        r = [min(y), min(x), max(y), max(x)]
-        rectangles.append(r)
+    # rectangles = []
+    # for c in contours:
+    #     x = []
+    #     y = []
+    #     for point in c:
+    #         y.append(point[0][0])
+    #         x.append(point[0][1])
+    #     r = [min(y), min(x), max(y), max(x)]
+    #     rectangles.append(r)
 
     # 用颜色识别出车牌区域
     # 需要注意的是这里设置颜色识别下限low时，可根据识别结果自行调整
@@ -174,23 +238,23 @@ def lpr(filename):
     maxMean = 0
     # 在得到的矩形框中进行循环
     # 获得矩形框的区域的个数：
-    print(len(rectangles))
+    # print(len(rectangles))
     maxweight, maxindex = 0, -1
-    for r in rectangles:
-        block = image[r[1]:r[3], r[0]:r[2]]
-        # RGB转HSV
-        hav = cv2.cvtColor(block, cv2.COLOR_BGR2HSV)
-        # 蓝色车牌范围
-        low = np.array([100, 50, 50])
-        up = np.array([140, 255, 255])
-        # 根据阈值构建掩模
-        # 低于low的高于up的图像素变为0，其余部分变为255
-        result = cv2.inRange(hav, low, up)
-        # 用计算均值的方式找蓝色最多的区域
-        mean = cv2.mean(result)
-        if mean[0] > maxMean:
-            maxMean = mean[0]
-            distR = r
+    # for r in rectangles:
+    #     block = image[r[1]:r[3], r[0]:r[2]]
+    #     # RGB转HSV
+    #     hav = cv2.cvtColor(block, cv2.COLOR_BGR2HSV)
+    #     # 蓝色车牌范围
+    #     low = np.array([100, 50, 50])
+    #     up = np.array([140, 255, 255])
+    #     # 根据阈值构建掩模
+    #     # 低于low的高于up的图像素变为0，其余部分变为255
+    #     result = cv2.inRange(hav, low, up)
+    #     # 用计算均值的方式找蓝色最多的区域
+    #     mean = cv2.mean(result)
+    #     if mean[0] > maxMean:
+    #         maxMean = mean[0]
+    #         distR = r
 
     # cv2.rectangle(image, (distR[0] + 3, distR[1]), (distR[2] - 3, distR[3]), (0, 255, 0), 2)
     # cv2.rectangle(image, (distR[0], distR[1]), (distR[2], distR[3]), (0, 255, 0), 2)
@@ -211,13 +275,10 @@ def lpr(filename):
 if __name__ == "__main__":
 
     # 循环读取文件
-    for i in range(100):
-        # lpr("../../Img/common/" + str(i + 1) + ".jpg")
-        lpr("../../Img/illumination/" + str(i + 1) + ".jpg")
-        # lpr("../../Img/distance/" + str(i + 1) + ".jpg")
-        # lpr("Img/tilt/" + str(i + 1) + ".jpg")
-        # lpr("Img/rotate/" + str(i + 1) + ".jpg")
-        # lpr("Img/Blur/" + str(i + 1) + ".jpg")
-        # lpr("Img/weather/" + str(i + 1) + ".jpg")
-        # lpr("Img/" + str(i + 1) + ".jpg")
-        # lpr("1/" + str(i + 1) + ".jpg")
+    path = "F:/experiment/image_identification/License_plate_recognition/Img/illumination/"
+    i = 0
+    path_list = os.listdir(path)
+    # print(path_list)
+    for filename in path_list:
+        lpr(path + filename)
+        i = i + 1

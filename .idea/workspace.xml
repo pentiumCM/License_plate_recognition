@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebd6df6-4f6f-48db-9c3f-0308770fc6d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/license_plate_recognition/keras/VGG_CNN.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/test3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dataset/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/model/svm_clf.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/bilinear_interpolation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dataset/dataset_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dataset/dataset_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dataset/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dataset/write_data_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/model/nb_clf_6.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/model/svm_clf_6.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/scaler/scaler.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scaler/scaler.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" beforeDir="false" afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py" beforeDir="false" afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py" beforeDir="false" afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+            <state relative-caret-position="216">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding>
                 <element signature="e#51#61#0" expanded="true" />
               </folding>
@@ -24,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/dataset/dataset.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+            <state relative-caret-position="179">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="e#190#208#0" expanded="true" />
               </folding>
@@ -36,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-916">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="209">
+              <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
               <folding>
                 <element signature="e#187#205#0" expanded="true" />
               </folding>
@@ -60,7 +87,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>stretchedImg</find>
-      <find>\</find>
       <find>&gt;&gt;&gt;</find>
       <find>skiprows</find>
       <find>MultinomialNB</find>
@@ -76,10 +102,12 @@
       <find>1.34</find>
       <find>1.181</find>
       <find>class_weight</find>
+      <find>bilinear</find>
+      <find>\</find>
     </findStrings>
     <replaceStrings>
-      <replace>/</replace>
       <replace>clf2.pkl</replace>
+      <replace>/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -100,19 +128,21 @@
         <option value="$PROJECT_DIR$/license_plate_recognition/keras/VGG_CNN.py" />
         <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/license_plate_nb_clf.py" />
         <option value="$PROJECT_DIR$/docs/dataset/write_data_6.csv" />
-        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py" />
-        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py" />
-        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" />
-        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/bi_in.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/bilinear_interpolation.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py" />
+        <option value="$PROJECT_DIR$/docs/conf.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py" />
+        <option value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="284" />
-    <option name="y" value="168" />
-    <option name="width" value="874" />
+    <option name="x" value="-10" />
+    <option name="width" value="762" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -121,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +172,12 @@
             <path>
               <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="scaler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="License_plate_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="License_plate_recognition" type="462c0819:PsiDirectoryNode" />
               <item name="license_plate_recognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -155,23 +190,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/dataset" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\experiment\image_identification\License_plate_recognition\Img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\experiment\image_identification\License_plate_recognition\docs\paper" />
       <recent name="F:\experiment\image_identification\License_plate_recognition\docs\dataset" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\experiment\image_identification\License_plate_recognition\docs\dataset" />
+      <recent name="F:\experiment\image_identification\License_plate_recognition\Img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,7 +246,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="license_plate_nb_clf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bilinear_interpolation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="License_plate_recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +259,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\experiment\image_identification\License_plate_recognition\license_plate_recognition\license_plate_localization\nb_clf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/license_plate_recognition/license_plate_localization/bilinear_interpolation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,7 +340,7 @@
         <item itemvalue="Python.svm_clf" />
         <item itemvalue="Python.nb_clf" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.license_plate_nb_clf" />
+        <item itemvalue="Python.bilinear_interpolation" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +361,17 @@
       <workItem from="1582118881513" duration="8216000" />
       <workItem from="1582163775850" duration="8755000" />
       <workItem from="1582250071219" duration="1504000" />
-      <workItem from="1582334955518" duration="15331000" />
+      <workItem from="1582334955518" duration="16035000" />
+      <workItem from="1582425342927" duration="2725000" />
+      <workItem from="1582594893832" duration="3963000" />
+      <workItem from="1582677524581" duration="1318000" />
+      <workItem from="1582785303031" duration="1682000" />
+      <workItem from="1583550023612" duration="12013000" />
+      <workItem from="1583634397009" duration="19078000" />
+      <workItem from="1583720397486" duration="12035000" />
+      <workItem from="1583800344875" duration="4265000" />
+      <workItem from="1583886743892" duration="10386000" />
+      <workItem from="1584430875463" duration="2398000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1581842968319</created>
@@ -410,11 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582378790018</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="修改requirements">
+      <created>1582379944438</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582379944438</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92700000" />
+    <option name="totallyTimeSpent" value="163267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,12 +483,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49914822" visible="true" weight="0.2549168" />
-      <window_info id="Structure" order="2" sideWeight="0.5008518" weight="0.18532526" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49914822" visible="true" weight="0.21104388" />
+      <window_info id="Structure" order="2" sideWeight="0.5008518" weight="0.26701966" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5665529" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.5546075" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5648464" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.47440273" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
@@ -444,10 +498,11 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.5238908" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32935154" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.5631399" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.30786687" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.37821484" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
@@ -456,6 +511,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -466,73 +524,35 @@
     <MESSAGE value="补充readme文件" />
     <MESSAGE value="完善requirements.txt文件" />
     <MESSAGE value="完善readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善readme" />
+    <MESSAGE value="修改requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改requirements" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/License_plate_recognition$license_plate_nb_clf.coverage" NAME="license_plate_nb_clf Coverage Results" MODIFIED="1582123896889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
-    <SUITE FILE_PATH="coverage/License_plate_recognition$test.coverage" NAME="test Coverage Results" MODIFIED="1582343109882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$bi_in.coverage" NAME="bi_in Coverage Results" MODIFIED="1583567587495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$test.coverage" NAME="test Coverage Results" MODIFIED="1583894083522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$bilinear_interpolation.coverage" NAME="bilinear_interpolation Coverage Results" MODIFIED="1583800595938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$sample.coverage" NAME="sample Coverage Results" MODIFIED="1581923822198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1581923935018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
-    <SUITE FILE_PATH="coverage/License_plate_recognition$LPBinaryOSTU1__1_.coverage" NAME="LPBinaryOSTU1 (1) Coverage Results" MODIFIED="1582375518248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
-    <SUITE FILE_PATH="coverage/License_plate_recognition$svm_clf.coverage" NAME="svm_clf Coverage Results" MODIFIED="1582356513985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$LPBinaryOSTU1__1_.coverage" NAME="LPBinaryOSTU1 (1) Coverage Results" MODIFIED="1584434275848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$svm_clf.coverage" NAME="svm_clf Coverage Results" MODIFIED="1584434158149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$LPBinaryOSTU1.coverage" NAME="LPBinaryOSTU1 Coverage Results" MODIFIED="1581840822137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/License_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$license_plate_classifier.coverage" NAME="license_plate_classifier Coverage Results" MODIFIED="1582003318339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
-    <SUITE FILE_PATH="coverage/License_plate_recognition$nb_clf.coverage" NAME="nb_clf Coverage Results" MODIFIED="1582356492455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
+    <SUITE FILE_PATH="coverage/License_plate_recognition$nb_clf.coverage" NAME="nb_clf Coverage Results" MODIFIED="1584433754537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/license_plate_localization" />
     <SUITE FILE_PATH="coverage/License_plate_recognition$VGG_CNN.coverage" NAME="VGG_CNN Coverage Results" MODIFIED="1582120033104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/license_plate_recognition/keras" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/dateset.txt" />
-    <entry file="file://$PROJECT_DIR$/docs/dateset.csv" />
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/numpy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4201" />
-      </provider>
-    </entry>
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/datasets/_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="206" column="4" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/sample.py" />
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/pandas/io/parsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="675" selection-start-line="675" selection-end-line="675" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="1760" selection-start-line="1760" selection-end-line="1760" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/naive_bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1067">
-          <caret line="187" column="18" lean-forward="true" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/numpy/core/_asarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="555" selection-start-line="555" selection-end-line="555" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/dataset.csv" />
-    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/save_model.py" />
     <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/ensemble/_forest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -549,52 +569,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/dataset/write_data.csv" />
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="836" column="28" lean-forward="true" selection-start-line="836" selection-start-column="28" selection-end-line="836" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/keras/engine/sequential.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="168" column="65" lean-forward="true" selection-start-line="168" selection-start-column="65" selection-end-line="168" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/keras/engine/training.py" />
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/keras/engine/sequential.py" />
     <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://F:/develop_tools/PyCharm/PyCharm-config/.PyCharm2019.1/system/python_stubs/755637836/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89460">
-          <caret line="4984" column="50" selection-start-line="4984" selection-start-column="50" selection-end-line="4984" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/license_plate_recognition/keras/VGG_CNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/dataset/write_data_6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/keras/VGG_CNN.py" />
     <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/model_selection/_split.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-175">
@@ -626,20 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/dataset/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/numpy/core/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="182" column="71" lean-forward="true" selection-start-line="182" selection-start-column="71" selection-end-line="182" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/preprocessing/_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="634" column="8" selection-start-line="634" selection-start-column="8" selection-end-line="634" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -650,16 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="e#179#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/joblib/numpy_pickle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
@@ -667,41 +628,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/dataset/dataset_6.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/dataset/dataset_5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2359" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
-          <folding>
-            <element signature="e#51#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Img/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Img/read.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/dataset/write_data_7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26011">
-          <caret line="408" column="30" selection-start-line="408" selection-start-column="30" selection-end-line="408" selection-end-column="30" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
-          <first_editor relative-caret-position="-288">
+          <first_editor relative-caret-position="252">
             <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           </first_editor>
           <second_editor />
@@ -709,24 +642,153 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/numpy/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/numpy/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-916">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="185">
+          <caret line="2468" selection-start-line="2468" selection-end-line="2468" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/1_cv_img.png" />
+    <entry file="file://$PROJECT_DIR$/Img/1_dst.jpg" />
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/bi_in.py" />
+    <entry file="file://$PROJECT_DIR$/Img/1_new1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Img/428_487626_bilinear.jpg" />
+    <entry file="file://$PROJECT_DIR$/Img/1_test.jpg" />
+    <entry file="file://$PROJECT_DIR$/Img/1_test2.jpg" />
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#187#205#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/PyCharm/PyCharm-config/.PyCharm2019.1/system/python_stubs/755637836/math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/1_new.jpg" />
+    <entry file="file://$PROJECT_DIR$/Img/1_new_resize.jpg" />
+    <entry file="file://$PROJECT_DIR$/Img/1_new_2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Img/test3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset/write_data_6.csv" />
+    <entry file="file://$PROJECT_DIR$/docs/dataset/dataset_5.csv" />
+    <entry file="file://$PROJECT_DIR$/docs/dataset/test.txt" />
+    <entry file="file://$PROJECT_DIR$/docs/dataset/dataset_6.csv" />
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#193#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/PyCharm/PyCharm-config/.PyCharm2019.1/system/python_stubs/755637836/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="8206" lean-forward="true" selection-start-line="8206" selection-end-line="8206" />
+          <folding>
+            <element signature="e#215#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/develop_tools/anaconda/anaconda-install/envs/machinelearn/Lib/site-packages/sklearn/preprocessing/_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13770">
+          <caret line="790" selection-start-line="790" selection-end-line="790" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/bilinear_interpolation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#204#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset/write_data_7.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dataset/dataset.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/nb_clf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+        <state relative-caret-position="179">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="e#190#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/LPBinaryOSTU1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="e#51#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license_plate_recognition/license_plate_localization/svm_clf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+          <folding>
+            <element signature="e#187#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
